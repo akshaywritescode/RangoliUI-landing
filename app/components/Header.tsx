@@ -1,6 +1,8 @@
+import { GithubIcon, Star } from "lucide-react";
 import { LanguageSelector } from "./LanguageSelector";
 import Separator from "./Separator";
 import ThemeSwitcher from "./ThemeSwitcher";
+import { Button } from "@/components/ui/button";
 
 export default function Header() {
     return (
@@ -52,6 +54,13 @@ export default function Header() {
                 <div className="flex items-center gap-2">
                     <LanguageSelector />
                     <ThemeSwitcher defaultValue="dark" />
+                    <Button className="flex items-center gap-2 cursor-pointer">
+                        <GithubIcon className="w-4 h-4" />
+                        <div className="flex items-center gap-1">
+                            <Star className="w-3 h-3" />
+                            <span className="text-xs">1.2K</span>
+                        </div>
+                    </Button>
                 </div>
             </header>
             <Separator />
