@@ -1,3 +1,4 @@
+import { LanguageSelector } from "./LanguageSelector";
 import Separator from "./Separator";
 import ThemeSwitcher from "./ThemeSwitcher";
 
@@ -48,7 +49,8 @@ export default function Header() {
                     </nav>
                 </div>
                 {/* Right Side */}
-                <div>
+                <div className="flex items-center gap-2">
+                    <LanguageSelector />
                     <ThemeSwitcher defaultValue="dark" />
                 </div>
             </header>
