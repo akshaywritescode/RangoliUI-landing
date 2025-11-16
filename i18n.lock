@@ -14,8 +14,23 @@ checksums:
     testimonial-7: 39553684cd018ef373d149e42bd89083
     testimonial-8: 07824d8783225ca28a2d7758ddc3a03a
     testimonial-9: d0dbc5d890a8f43aaca146568399356c
+    discover-components: d691335ea1f47d44dc7ae87d766cdb4d
     what-users-are-saying: 8d9bf742eed4d380fa7cd79ee39f2051
     hero-heading: 1ada4ad41dba2336b4b7bbe474a58e0a
     hero-description: 2bab78b90913cae8d72019fb08f669a1
     pricing-heading: dc0361e62c6473456eecca3dac96822a
     pricing-description: 8993492839c5f524020a5f2c58814f03
+    basic: e3419625edbe29b8528d564c90a5e70c
+    plus: 54ddb7f88090c3d3f7e9e4a389a97cec
+    bussiness: 67ed9ccb43a0a69d1a45c524a85e6eca
+    basic-plan-desc: 1500a1082318e647bc53b68a3cb1a969
+    plus-plan-desc: fa85e5984ca7d1eda1a90fa0c9568fc0
+    bussiness-plan-desc: 9c1e021618602860ee1fa86b294588f4
+    monthly: 818f1192e32bb855597f930d3e78806e
+    yearly: 87f43e016c19cb25860f456549a2f431
+    get: 94bbf679cbf96682d09fd0433aee4dce
+    basic-feature-1: b3a1706c65854a964c64062a2df22979
+    basic-feature-2: 3b547431ab12f0fba84307e6a81109d8
+    basic-feature-3: 3d59d282587bd35df10cf66e4aed0d22
+    basic-feature-4: 846ac8381494a3db3a970ac410951747
+    see-all-features: b6de88a2cc02e0e5ce4eaf539af158d1

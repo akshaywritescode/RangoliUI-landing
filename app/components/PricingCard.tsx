@@ -10,6 +10,7 @@ import {
   CardTitle,
   CardDescription,
 } from "@/components/ui/card";
+import { useI18n } from "@/providers/i18nProvider";
 import { Check } from "lucide-react";
 import Link from "next/link";
 
@@ -28,7 +29,11 @@ export default function PricingCard({
   isMonthly: boolean;
   seeAllFeatureLink: string;
 }) {
+
+  const { t } = useI18n()
+
   return (
+
     <Card className="w-[350px] flex flex-col items-center relative">
       <CardHeader className="h-[70px]">
         <CardTitle className="text-center mb-5 absolute -translate-x-1/2">{planTitle}</CardTitle>
@@ -47,7 +52,7 @@ export default function PricingCard({
             </div>
           </div>
           <div>
-            <Button>Get {planTitle}</Button>
+            <Button>{`${t("get")}`} {planTitle}</Button>
           </div>
         </div>
 
@@ -73,7 +78,7 @@ export default function PricingCard({
           href={seeAllFeatureLink}
           className="font-medium text-sm underline underline-offset-1 absolute bottom-5 left-1/2 -translate-x-1/2"
         >
-          See all Features
+          {`${t("see-all-features")}`}
         </Link>
       </CardFooter>
     </Card>

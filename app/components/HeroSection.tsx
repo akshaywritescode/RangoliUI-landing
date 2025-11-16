@@ -6,12 +6,13 @@ import ShoeProductCard from "@/app/components/ShoeProductCard"
 import ChartComponent from "@/app/components/ChartComponent"
 import PricingCard from "./PricingCard"
 import { useI18n } from "@/providers/i18nProvider"
+import { Card } from "@/components/ui/card"
 
 export default function HeroSection() {
     const {t} = useI18n()
 
     return (
-        <section className="w-full h-auto min-h-[calc(100vh-4.5rem)] bg-[#040c02] text-green-100 flex flex-col lg:flex-row">
+        <Card className="w-full h-auto min-h-[calc(100vh-4.5rem)] bg-[#040c02] text-green-100 flex flex-col lg:flex-row">
             {/* Left Content */}
             {/* Left Content */}
             <div className="w-full lg:w-1/2 h-full pt-20 px-6 lg:pt-24 lg:pl-16 lg:pr-12 flex flex-col text-center md:text-left items-center md:items-start">
@@ -23,7 +24,7 @@ export default function HeroSection() {
                 </p>
 
                 <Link href="https://rangoli-ui-docs.vercel.app/" target="_blank" className="flex items-center justify-center gap-1 primary-btn mt-5 text-black rounded-md bg-green-500 p-2">
-                    Discover Components <ArrowRight className="w-5" />
+                    {`${t("discover-components")}`} <ArrowRight className="w-5" />
                 </Link>
             </div>
 
@@ -38,15 +39,15 @@ export default function HeroSection() {
                         </div>
                         <div>
                             <PricingCard
-                                planTitle="Basic"
-                                planDescription="Create interactive forms that connect to your workflow"
+                                planTitle={`${t("basic")}`}
+                                planDescription={`${t("basic-plan-desc")}`}
                                 price={["24", "242"]}
                                 isMonthly={true}
                                 features={[
-                                    "100 responses/mo included",
-                                    "1 user",
-                                    "Unlimited forms",
-                                    "Unlimited questions",
+                                    `${t("basic-feature-1")}`,
+                                    `${t("basic-feature-2")}`,
+                                    `${t("basic-feature-3")}`,
+                                    `${t("basic-feature-4")}`,
                                 ]}
                                 seeAllFeatureLink="/basic-features"
                             />
@@ -54,6 +55,6 @@ export default function HeroSection() {
                     </div>
                 </div>
             </div>
-        </section>
+        </Card>
     )
 }

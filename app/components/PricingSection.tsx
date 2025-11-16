@@ -8,7 +8,7 @@ import { useState } from "react"
 
 export default function PricingSection() {
     const [isMonthly, setIsMonthly] = useState(false)
-    const {t} = useI18n()
+    const { t } = useI18n()
 
 
     return <section className="flex flex-col items-center">
@@ -20,20 +20,35 @@ export default function PricingSection() {
             <Tabs defaultValue="yearly">
                 <TabsList>
                     <TabsTrigger value="monthly" className="text-base" onClick={() => setIsMonthly(() => true)}>
-                        Monthly
+                        {`${t("monthly")}`}
                     </TabsTrigger>
                     <TabsTrigger value="yearly" className="text-base" onClick={() => setIsMonthly(() => false)}>
-                        Yearly <span className="ml-3 text-sm font-semibold text-blue-700">Save 16%</span>
+                        {`${t("yearly")}`} <span className="ml-3 text-sm font-semibold text-blue-700">Save 16%</span>
                     </TabsTrigger>
                 </TabsList>
             </Tabs>
         </div>
         <div className="flex flex-col gap-10 mt-20 lg:flex-row">
-            <PricingCard planTitle="Basic" planDescription="Create interactive forms that connect to your workflow" price={["24", "242"]} isMonthly={isMonthly} features={["100 responses/mo included", "1 user", "Unlimited forms", "Unlimited questions"]} seeAllFeatureLink="/basic-features" />
+            <PricingCard planTitle={`${t("basic")}`} planDescription={`${t("basic-plan-desc")}`} price={["24", "242"]} isMonthly={isMonthly} features={[
+                `${t("basic-feature-1")}`,
+                `${t("basic-feature-2")}`,
+                `${t("basic-feature-3")}`,
+                `${t("basic-feature-4")}`,
+            ]} seeAllFeatureLink="/basic-features" />
 
-            <PricingCard planTitle="Plus" planDescription="Make your forms more beautiful and on-brand" price={["59", "595"]} isMonthly={isMonthly} features={["1,000 responses/mo included", "3 user", "Everything in Basic", "Remove FillUp branding", "Custom subdomain"]} seeAllFeatureLink="/plus-features" />
+            <PricingCard planTitle={`${t("plus")}`} planDescription={`${t("plus-plan-desc")}`} price={["59", "595"]} isMonthly={isMonthly} features={[
+                `${t("basic-feature-1")}`,
+                `${t("basic-feature-2")}`,
+                `${t("basic-feature-3")}`,
+                `${t("basic-feature-4")}`,
+            ]} seeAllFeatureLink="/plus-features" />
 
-            <PricingCard planTitle="Business" planDescription="Analyze performance and do more with your data" price={["83", "836"]} isMonthly={isMonthly} features={["10,000 responses/mo included", "5 user", "Everything in Plus", "Drop-off rates", "Conversion tracking", "Priority support and live chat"]} seeAllFeatureLink="/business-features" />
+            <PricingCard planTitle={`${t("bussiness")}`} planDescription={`${t("Bussiness-plan-desc")}`} price={["83", "836"]} isMonthly={isMonthly} features={[
+                `${t("basic-feature-1")}`,
+                `${t("basic-feature-2")}`,
+                `${t("basic-feature-3")}`,
+                `${t("basic-feature-4")}`,
+            ]} seeAllFeatureLink="/business-features" />
         </div>
     </section>
 }
