@@ -27,17 +27,17 @@ export default function Header() {
                     <nav className="hidden xl:block">
                         <ul className="flex items-center gap-7 text-sm font-medium">
                             <li className="cursor-pointer">
-                                <Link href={"#"} className="p-2 rounded-md hover:bg-accent hover:text-accent-foreground">
+                                <Link href={"https://rangoli-ui-docs.vercel.app/"} className="p-2 rounded-md hover:bg-accent hover:text-accent-foreground">
                                     {t("get_started")}
                                 </Link>
                             </li>
                             <li className="cursor-pointer">
-                                <Link href={"#"} className="p-2 rounded-md hover:bg-accent hover:text-accent-foreground">
+                                <Link href={"https://rangoli-ui-docs.vercel.app/"} className="p-2 rounded-md hover:bg-accent hover:text-accent-foreground">
                                     {t("documentation")}
                                 </Link>
                             </li>
                             <li className="cursor-pointer">
-                                <Link href={"#"} className="p-2 rounded-md hover:bg-accent hover:text-accent-foreground">
+                                <Link href={"https://github.com/akshaywritescode/RangoliUI-Docs"} className="p-2 rounded-md hover:bg-accent hover:text-accent-foreground">
                                     {t("contribute")}
                                 </Link>
                             </li>
