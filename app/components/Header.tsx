@@ -11,6 +11,8 @@ import { Button } from "@/components/ui/button";
 import { useI18n } from "@/providers/i18nProvider";
 import Separator from "./Separator";
 import Link from "next/link";
+import FooterLogo from "@/app/assets/favicon.svg"
+import Image from "next/image";
 
 export default function Header() {
     const { t } = useI18n();
@@ -21,7 +23,11 @@ export default function Header() {
             <header className="h-[65px] w-full flex items-center justify-between px-6 lg:px-10">
                 {/* LEFT */}
                 <div className="flex items-center gap-10">
-                    <h1 className="text-3xl font-medium">RangoliUI</h1>
+                    <div className="flex items-center gap-2">
+                         <Image src={FooterLogo} width={40} height={40} alt="logo" />
+                        <h1 className="text-3xl font-medium">RangoliUI</h1>
+                    </div>
+                    
 
                     {/* Desktop Nav (1120px and up) */}
                     <nav className="hidden xl:block">

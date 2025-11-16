@@ -7,7 +7,11 @@ import { I18nProvider } from "@/providers/i18nProvider";
 
 export const metadata: Metadata = {
   title: "Rangoli UI - Multilangual Supported Component Library",
-  description: "Rangoli UI is a modern component library that supports multiple languages and is built with accessibility and customization in mind.",
+  description:
+    "Rangoli UI is a modern component library that supports multiple languages and is built with accessibility and customization in mind.",
+  icons: {
+    icon: "/app/assets/favicon.svg",
+  },
 };
 
 export default function RootLayout({
