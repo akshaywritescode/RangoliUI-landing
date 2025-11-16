@@ -2,17 +2,19 @@
 
 import PricingCard from "@/app/components/PricingCard"
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { useI18n } from "@/providers/i18nProvider";
 import { useState } from "react"
 
 
 export default function PricingSection() {
     const [isMonthly, setIsMonthly] = useState(false)
+    const {t} = useI18n()
 
 
     return <section className="flex flex-col items-center">
         <div className="flex flex-col items-center">
-            <h2 className="text-3xl tracking-wide leading-[2.5rem] text-center font-medium md:text-4xl lg:text-5xl lg:leading-[3.8rem] lg:w-[70%]">Choose one of our core plans</h2>
-            <p className="mt-7 text-center font-medium text-black/60">Looking for advanced features? Check out our latest Growth plans or get a taste with our Free plan</p>
+            <h2 className="text-3xl tracking-wide leading-[2.5rem] text-center font-medium md:text-4xl lg:text-5xl lg:leading-[3.8rem] lg:w-[70%]">{`${t("pricing-heading")}`}</h2>
+            <p className="mt-7 text-center font-medium text-black/60">{`${t("pricing-description")}`}</p>
         </div>
         <div className="mt-20">
             <Tabs defaultValue="yearly">
