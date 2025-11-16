@@ -1,7 +1,3 @@
-//Run The following command to install required shadcn component
-//npx shadcn@latest add card
-
-
 import { Card, CardContent, CardFooter } from "@/components/ui/card";
 import Image, { StaticImageData } from "next/image";
 

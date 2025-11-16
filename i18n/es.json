@@ -3,5 +3,16 @@
   "documentation": "Documentación",
   "contribute": "Contribuir",
   "donate": "Donar",
-  "select_language": "Seleccionar idioma..."
+  "testimonial-1": "¡Rangoli UI es revolucionario! Los componentes prediseñados me ahorraron horas de tiempo de desarrollo mientras mantenían una calidad de diseño de primer nivel.",
+  "testimonial-2": "Rangoli UI hizo mi flujo de trabajo mucho más fluido. Los diseños de los componentes son hermosos y fáciles de integrar en cualquier proyecto.",
+  "testimonial-3": "Con Rangoli UI, ya no me preocupo por diseños inconsistentes. Todo está pulido y funciona perfectamente desde el principio.",
+  "testimonial-4": "Estaba buscando una biblioteca de UI que combinara estética con rendimiento, y Rangoli UI superó mis expectativas. ¡Altamente recomendado!",
+  "testimonial-5": "Estaba buscando una biblioteca de UI que combinara estética con rendimiento, y Rangoli UI superó mis expectativas. ¡Altamente recomendado!",
+  "testimonial-6": "¡Rangoli UI es una delicia absoluta! La variedad de componentes y el estilo moderno lo convierten en mi biblioteca preferida para cada proyecto.",
+  "testimonial-7": "Como desarrollador frontend, me encanta lo personalizable y ligero que es Rangoli UI. ¡Se adapta perfectamente a mis proyectos de React!",
+  "testimonial-8": "¡Construir interfaces nunca ha sido tan sencillo! Rangoli UI logra el equilibrio perfecto entre simplicidad y excelencia en diseño.",
+  "testimonial-9": "Cambié a Rangoli UI desde otro kit de UI, y nunca volveré atrás. ¡La experiencia del desarrollador es inigualable!",
+  "what-users-are-saying": "Lo que dicen los usuarios",
+  "hero-heading": "Avanza más rápido con componentes prediseñados.",
+  "hero-description": "Rangoli ofrece una suite completa de herramientas UI gratuitas para ayudarte a lanzar nuevas funcionalidades más rápido. Comienza con Rangoli UI, nuestra biblioteca de componentes completamente equipada, o integra tu propio sistema de diseño con nuestros componentes listos para producción."
 }

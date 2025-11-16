@@ -3,5 +3,16 @@
   "documentation": "文档",
   "contribute": "贡献",
   "donate": "捐赠",
-  "select_language": "选择语言..."
+  "testimonial-1": "Rangoli UI 真是个改变游戏规则的工具！预构建的组件为我节省了数小时的开发时间，同时保持了顶级的设计质量。",
+  "testimonial-2": "Rangoli UI 让我的工作流程更加顺畅。组件设计既美观又易于集成到任何项目中。",
+  "testimonial-3": "有了 Rangoli UI，我再也不用担心设计不一致的问题了。一切都经过精心打磨，开箱即用。",
+  "testimonial-4": "我一直在寻找一个将美学与性能相结合的 UI 库，而 Rangoli UI 超出了我的预期。强烈推荐！",
+  "testimonial-5": "我一直在寻找一个将美学与性能相结合的 UI 库，而 Rangoli UI 超出了我的预期。强烈推荐！",
+  "testimonial-6": "Rangoli UI 真是令人愉悦！丰富的组件种类和现代化的样式使其成为我每个项目的首选库。",
+  "testimonial-7": "作为一名前端开发者，我喜欢 Rangoli UI 的高度可定制性和轻量化。它完美适配我的 React 项目！",
+  "testimonial-8": "构建 UI 从未如此轻松！Rangoli UI 在简洁性和设计卓越性之间找到了完美的平衡。",
+  "testimonial-9": "我从另一个 UI 工具包切换到了 Rangoli UI，再也不想回头了。开发者体验无与伦比！",
+  "what-users-are-saying": "用户评价",
+  "hero-heading": "使用预构建组件，加速前进。",
+  "hero-description": "Rangoli 提供了一套全面的免费 UI 工具，帮助您更快地推出新功能。您可以从功能齐全的组件库 Rangoli UI 开始，或者将您自己的设计系统与我们已准备好生产的组件结合使用。"
 }
